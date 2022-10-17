@@ -1,0 +1,115 @@
+/***************************
+　 *  .  . *       *    .        .        .   *    .. *  .  . *       *    
+ *  .  . *       *    .        .        .   *    .. *  .  . *       *    
+        _..._  *  .  . *       *    .        .        .   *    ..
+      .'     '.      _    *  .  . *       *    .        .        .   *  
+     /    .-""-\ * _/ \
+   .-|   /:.   |  |   |   . *    .        .        . 
+   |  \  |:.   /.-'-./
+   | .-'-;:__.'    =/ *    .        .        . 
+   .'=  *=|NASA _.='                  . *  .-.  .   *    .. *  .  . *       
+  /   _.  |    ;            .-""`""-.    |(@ @)
+ ;-.-'|    \   |  . *    _/`oOoOoOoOo`\_ \ \-/   *    .. *  .  . *       
+/   | \    _\  _\       '.-=-=-=-=-=-=-.' \/ \     .        .        .   * 
+\__/'._;.  ==' ==\  MZW   `-=.=-.-=.=-'    \ /\  .        .        .   * 
+         \    \   |          ^  ^  ^       _H_ \
+         /    /   / *    .        .        .     .   *
+         /-._/-._/           *    .        .        . 
+         \   `\  \*    .        .        . .  *     .        .   * 
+          `-._/._/
+*  .  . *       *    .        .        .   *    .. *  .  . *       *    
+ *  .  . *       *    .        .        .   *    .. *  .  . *       *    
+***************************/
+
+body{
+    font-family: "monospace", sans-serif;
+}
+
+.font-primary{
+    color: rgb(75, 200, 160);
+}
+
+.title-icon{
+     font-size: 20px;
+     font-weight: bold;
+}
+
+p{
+  font-size: 14px;  
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black{
+    color: black !important;
+}
+
+/****************************
+ABOUT
+*****************************/
+
+#about{
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+#about img{
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+#about .name{
+    font-size: 19px;
+}
+
+#about .vocation{
+    font-size: 17px;
+    color: rgb(116, 115, 115);
+    margin-bottom: 10px;
+}
+
+#about .skills{
+    font-size: 14px ;
+    color: rgb(75, 200, 160);
+    margin-bottom: 10px;
+    
+}
+#about .email{
+    margin-top: 14 px;
+    font-size: 14px;
+}
+
+#about .icons{
+    margin-top: 20px;
+    font-size:30px ;
+}
+
+#about .icons a{
+   color: rgb(75, 200, 160);
+}
+/****************************
+Projects
+*****************************/
+
+projects{
+    margin: 60px auto;
+    width: 80%;
+}
+
+#projects h2{
+    text-align: center;
+}
+
+#projects .card img{
+    width: 100%;
+}
+
+#projects .card-title{
+    font-weight: bold;
+}
